@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fournisseur</title>
+    <link rel="stylesheet" href="style_fournisseur.css">
+</head>
+
+<body>
+
+    <div class="fournisseur-container">
+
+        <div class="head">
+            <ul>
+                <li class="appel-offre-nav-link"><a href="index.html">Appels D'offres</a></li>
+                <li class="mes-propositions-nav-link"><a href="#">Mes Propositions</a></li>
+                <li class="mes-notification-nav-link"><a href="#">Mes Notifications</a></li>
+                <li class="ma-compte-nav-link"><a href="compte.html">Compte</a></li>
+
+            </ul>
+            <div class="bi-list-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+                <ul id="menu-ul">
+                    <li class="appel-offre-nav-link">Appels D'offres</li>
+                    <li>Mes Propositions</li>
+                    <li>Mes Notifications</li>
+                    <li>Compte</li>
+                </ul>
+            </div>
+            <a href="login.html">Login</a>
+        </div>
+
+        <div class="separator" style="margin-top: 100px;"></div>
+
+        <div class="compte-informations-container">
+            <div class="compte-cart">
+                <h4>Hirochima</h4>
+                <hr>
+                <div class="infos-container">
+                    <div class="info-container">
+                        <span>Lieu</span>
+                        <span>Casablanca</span>
+                    </div>
+                    <div class="info-container">
+                        <span>Gérant</span>
+                        <span>Loqman ikiwit</span>
+                    </div>
+                    <div class="info-container">
+                        <span>Adresse</span>
+                        <span>Casablanca 54, r879</span>
+                    </div>
+                    <div class="info-container">
+                        <span>Site internet</span>
+                        <a href="">www.ikiwit.com</a>
+                    </div>
+                </div>
+                <hr>
+                <p class="link-retour"><a href="index.html"><small>Appels D'offres</small></a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script_fournisseur.js"></script>
+    <script>
+        const elements = document.getElementsByClassName("ma-compte-nav-link");
+        for (let element of elements) {
+            element.style.color = "rgba(255, 27, 0, 1)";
+        }
+    </script>
+</body>
+
+</html>

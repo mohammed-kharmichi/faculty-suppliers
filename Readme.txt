@@ -1,0 +1,2 @@
+This template is designed to be the main interface for faculty suppliers, allowing them to view all the faculty's calls for tenders. Each call for tender includes 
+material resources such as computers and printers, and suppliers can submit their proposals.
